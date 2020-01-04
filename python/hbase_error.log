@@ -1,0 +1,184 @@
+Mon Sep  9 12:15:20 CST 2019
+Running on: hadoop05 (172.16.20.34)
++ source_parcel_environment
++ '[' '!' -z /opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/meta/cdh_env.sh ']'
++ OLD_IFS=' 	
+'
++ IFS=:
++ SCRIPT_ARRAY=($SCM_DEFINES_SCRIPTS)
++ DIRNAME_ARRAY=($PARCEL_DIRNAMES)
++ IFS=' 	
+'
++ COUNT=1
+++ seq 1 1
++ for i in '`seq 1 $COUNT`'
++ SCRIPT=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/meta/cdh_env.sh
++ PARCEL_DIRNAME=CDH-5.11.0-1.cdh5.11.0.p0.34
++ . /opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/meta/cdh_env.sh
+++ CDH_DIRNAME=CDH-5.11.0-1.cdh5.11.0.p0.34
+++ export CDH_HADOOP_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop
+++ CDH_HADOOP_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop
+++ export CDH_MR1_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-0.20-mapreduce
+++ CDH_MR1_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-0.20-mapreduce
+++ export CDH_HDFS_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-hdfs
+++ CDH_HDFS_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-hdfs
+++ export CDH_HTTPFS_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-httpfs
+++ CDH_HTTPFS_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-httpfs
+++ export CDH_MR2_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-mapreduce
+++ CDH_MR2_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-mapreduce
+++ export CDH_YARN_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-yarn
+++ CDH_YARN_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-yarn
+++ export CDH_HBASE_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hbase
+++ CDH_HBASE_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hbase
+++ export CDH_ZOOKEEPER_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/zookeeper
+++ CDH_ZOOKEEPER_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/zookeeper
+++ export CDH_HIVE_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hive
+++ CDH_HIVE_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hive
+++ export CDH_HUE_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hue
+++ CDH_HUE_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hue
+++ export CDH_OOZIE_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/oozie
+++ CDH_OOZIE_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/oozie
+++ export CDH_HUE_PLUGINS_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop
+++ CDH_HUE_PLUGINS_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop
+++ export CDH_FLUME_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/flume-ng
+++ CDH_FLUME_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/flume-ng
+++ export CDH_PIG_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/pig
+++ CDH_PIG_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/pig
+++ export CDH_HCAT_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hive-hcatalog
+++ CDH_HCAT_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hive-hcatalog
+++ export CDH_SQOOP2_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/sqoop2
+++ CDH_SQOOP2_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/sqoop2
+++ export CDH_LLAMA_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/llama
+++ CDH_LLAMA_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/llama
+++ export CDH_SENTRY_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/sentry
+++ CDH_SENTRY_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/sentry
+++ export TOMCAT_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/bigtop-tomcat
+++ TOMCAT_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/bigtop-tomcat
+++ export JSVC_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/bigtop-utils
+++ JSVC_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/bigtop-utils
+++ export CDH_HADOOP_BIN=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop/bin/hadoop
+++ CDH_HADOOP_BIN=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop/bin/hadoop
+++ export CDH_IMPALA_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/impala
+++ CDH_IMPALA_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/impala
+++ export CDH_SOLR_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/solr
+++ CDH_SOLR_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/solr
+++ export CDH_HBASE_INDEXER_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hbase-solr
+++ CDH_HBASE_INDEXER_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hbase-solr
+++ export SEARCH_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/search
+++ SEARCH_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/search
+++ export CDH_SPARK_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/spark
+++ CDH_SPARK_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/spark
+++ export WEBHCAT_DEFAULT_XML=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/etc/hive-webhcat/conf.dist/webhcat-default.xml
+++ WEBHCAT_DEFAULT_XML=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/etc/hive-webhcat/conf.dist/webhcat-default.xml
+++ export CDH_KMS_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-kms
+++ CDH_KMS_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop-kms
+++ export CDH_PARQUET_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/parquet
+++ CDH_PARQUET_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/parquet
+++ export CDH_AVRO_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/avro
+++ CDH_AVRO_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/avro
++ locate_cdh_java_home
++ '[' -z /usr/java/jdk1.8.0_77 ']'
++ verify_java_home
++ '[' -z /usr/java/jdk1.8.0_77 ']'
++ echo JAVA_HOME=/usr/java/jdk1.8.0_77
++ echo 'using /usr/java/jdk1.8.0_77 as JAVA_HOME'
++ echo 'using 5 as CDH_VERSION'
++ echo 'using  as HBASE_HOME'
++ echo 'using /var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER as HBASE_CONF_DIR'
++ echo 'using /var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER as HADOOP_CONF_DIR'
++ echo 'using  as HADOOP_HOME'
++ set_hbase_classpath
++ set_classpath_in_var HBASE_CLASSPATH
++ '[' -z HBASE_CLASSPATH ']'
++ [[ -n /usr/share/cmf ]]
+++ find /usr/share/cmf/lib/plugins -maxdepth 1 -name '*.jar'
+++ tr '\n' :
++ ADD_TO_CP=/usr/share/cmf/lib/plugins/event-publish-5.11.0-shaded.jar:/usr/share/cmf/lib/plugins/tt-instrumentation-5.11.0.jar:
++ [[ -n navigator/cdh57 ]]
++ for DIR in '$CM_ADD_TO_CP_DIRS'
+++ find /usr/share/cmf/lib/plugins/navigator/cdh57 -maxdepth 1 -name '*.jar'
+++ tr '\n' :
++ PLUGIN=/usr/share/cmf/lib/plugins/navigator/cdh57/audit-plugin-cdh57-2.10.0-shaded.jar:
++ ADD_TO_CP=/usr/share/cmf/lib/plugins/event-publish-5.11.0-shaded.jar:/usr/share/cmf/lib/plugins/tt-instrumentation-5.11.0.jar:/usr/share/cmf/lib/plugins/navigator/cdh57/audit-plugin-cdh57-2.10.0-shaded.jar:
++ eval 'OLD_VALUE=$HBASE_CLASSPATH'
+++ OLD_VALUE=
++ NEW_VALUE=/usr/share/cmf/lib/plugins/event-publish-5.11.0-shaded.jar:/usr/share/cmf/lib/plugins/tt-instrumentation-5.11.0.jar:/usr/share/cmf/lib/plugins/navigator/cdh57/audit-plugin-cdh57-2.10.0-shaded.jar:
++ export HBASE_CLASSPATH=/usr/share/cmf/lib/plugins/event-publish-5.11.0-shaded.jar:/usr/share/cmf/lib/plugins/tt-instrumentation-5.11.0.jar:/usr/share/cmf/lib/plugins/navigator/cdh57/audit-plugin-cdh57-2.10.0-shaded.jar
++ HBASE_CLASSPATH=/usr/share/cmf/lib/plugins/event-publish-5.11.0-shaded.jar:/usr/share/cmf/lib/plugins/tt-instrumentation-5.11.0.jar:/usr/share/cmf/lib/plugins/navigator/cdh57/audit-plugin-cdh57-2.10.0-shaded.jar
++ export HADOOP_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop
++ HADOOP_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hadoop
++ export HBASE_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hbase
++ HBASE_HOME=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hbase
+++ replace_pid
+++ echo
+++ sed 's#{{PID}}#171111#g'
++ export HBASE_MASTER_OPTS=
++ HBASE_MASTER_OPTS=
+++ replace_pid -Xms6442450944 -Xmx6442450944 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -XX:+CMSParallelRemarkEnabled -XX:+HeapDumpOnOutOfMemoryError '-XX:HeapDumpPath=/tmp/hbase_hbase-REGIONSERVER-18082243e96233a45817625af3a63a95_pid{{PID}}.hprof' -XX:OnOutOfMemoryError=/usr/lib64/cmf/service/common/killparent.sh
+++ sed 's#{{PID}}#171111#g'
+++ echo -Xms6442450944 -Xmx6442450944 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -XX:+CMSParallelRemarkEnabled -XX:+HeapDumpOnOutOfMemoryError '-XX:HeapDumpPath=/tmp/hbase_hbase-REGIONSERVER-18082243e96233a45817625af3a63a95_pid{{PID}}.hprof' -XX:OnOutOfMemoryError=/usr/lib64/cmf/service/common/killparent.sh
++ export 'HBASE_REGIONSERVER_OPTS=-Xms6442450944 -Xmx6442450944 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -XX:+CMSParallelRemarkEnabled -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp/hbase_hbase-REGIONSERVER-18082243e96233a45817625af3a63a95_pid171111.hprof -XX:OnOutOfMemoryError=/usr/lib64/cmf/service/common/killparent.sh'
++ HBASE_REGIONSERVER_OPTS='-Xms6442450944 -Xmx6442450944 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -XX:+CMSParallelRemarkEnabled -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp/hbase_hbase-REGIONSERVER-18082243e96233a45817625af3a63a95_pid171111.hprof -XX:OnOutOfMemoryError=/usr/lib64/cmf/service/common/killparent.sh'
+++ replace_pid
+++ echo
+++ sed 's#{{PID}}#171111#g'
++ export HBASE_REST_OPTS=
++ HBASE_REST_OPTS=
+++ replace_pid
+++ echo
+++ sed 's#{{PID}}#171111#g'
++ export HBASE_THRIFT_OPTS=
++ HBASE_THRIFT_OPTS=
+++ replace_pid
+++ echo
+++ sed 's#{{PID}}#171111#g'
++ export HBASE_MASTER_OPTS=
++ HBASE_MASTER_OPTS=
++ set -x
++ export HADOOP_CONF_DIR=/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER
++ HADOOP_CONF_DIR=/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER
++ export HBASE_CONF_DIR=/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER
++ HBASE_CONF_DIR=/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER
++ export HADOOP_CONF=/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER
++ HADOOP_CONF=/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER
++ replace_conf_dir
++ echo CONF_DIR=/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER
++ echo CMF_CONF_DIR=/etc/cloudera-scm-agent
++ EXCLUDE_CMF_FILES=('cloudera-config.sh' 'httpfs.sh' 'hue.sh' 'impala.sh' 'sqoop.sh' 'supervisor.conf' '*.log' '*.keytab' '*jceks')
+++ printf '! -name %s ' cloudera-config.sh httpfs.sh hue.sh impala.sh sqoop.sh supervisor.conf '*.log' hbase.keytab '*jceks'
++ find /var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER -type f '!' -path '/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER/logs/*' '!' -name cloudera-config.sh '!' -name httpfs.sh '!' -name hue.sh '!' -name impala.sh '!' -name sqoop.sh '!' -name supervisor.conf '!' -name '*.log' '!' -name hbase.keytab '!' -name '*jceks' -exec perl -pi -e 's#{{CMF_CONF_DIR}}#/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER#g' '{}' ';'
++ make_scripts_executable
++ find /var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER -regex '.*\.\(py\|sh\)$' -exec chmod u+x '{}' ';'
++ acquire_kerberos_tgt hbase.keytab
++ '[' -z hbase.keytab ']'
++ '[' -n '' ']'
++ export 'HBASE_OPTS=-Djava.net.preferIPv4Stack=true '
++ HBASE_OPTS='-Djava.net.preferIPv4Stack=true '
++ locate_hbase_script
++ '[' 5 -ge 5 ']'
++ export BIGTOP_DEFAULTS_DIR=
++ BIGTOP_DEFAULTS_DIR=
++ HBASE_BIN=/opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hbase/../../bin/hbase
++ '[' upgrade = regionserver ']'
++ '[' region_mover = regionserver ']'
++ '[' toggle_balancer = regionserver ']'
++ '[' shell = regionserver ']'
++ '[' hfileCheck = regionserver ']'
++ '[' remoteSnapshotTool = regionserver ']'
++ '[' '' '!=' '' ']'
++ '[' regionserver = regionserver -a -n '' ']'
++ '[' start = start -a 5 -gt 4 ']'
++ '[' regionserver = regionserver -o master = regionserver ']'
++ export HBASE_ZNODE_FILE=/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER/znode171111
++ HBASE_ZNODE_FILE=/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER/znode171111
++ exec /opt/cloudera/parcels/CDH-5.11.0-1.cdh5.11.0.p0.34/lib/hbase/../../bin/hbase --config /var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER regionserver start
++ znode_cleanup regionserver
+++ date
++ echo 'Mon Sep  9 12:15:20 CST 2019 Starting znode cleanup thread with HBASE_ZNODE_FILE=/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER/znode171111 for regionserver'
+++ replace_pid -Djava.net.preferIPv4Stack=true
+++ echo -Djava.net.preferIPv4Stack=true
+++ sed 's#{{PID}}#171111#g'
++ HBASE_OPTS=-Djava.net.preferIPv4Stack=true
++ '[' '' '!=' '' ']'
++ LOG_FILE=/var/run/cloudera-scm-agent/process/3045-hbase-REGIONSERVER/logs/znode_cleanup.log
++ set +x
